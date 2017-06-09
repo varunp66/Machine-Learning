@@ -17,7 +17,7 @@ it is true of false  '''
         if arr[ord(char)] is False:  
             arr[ord(char)] = True
         else :
-            return False   # If it is False then we have found the value already
+            return False   # If it is false then we have found the value already
     return True         #This means there are no duplacate characters in the string.
 
 print (isUniqueChars(testString))
