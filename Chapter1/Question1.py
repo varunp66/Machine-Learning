@@ -2,7 +2,7 @@
 
 # First we have to decide where it is ASCII with 128 chars or ETFS coded
 
-#Here we are testing the value of variues characters, as 'a' has value 97 etc.
+#Here we are testing the value of variues characters, as 'a' has value 97 etc
 
 testString = "abc"
 
