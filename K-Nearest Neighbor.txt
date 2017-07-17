@@ -1,0 +1,18 @@
+Here we set certain value for K.
+Let's say K=3.
+
+And now we find the nearest 3 points to our line to predict 
+the outcome. We can use the points to prodict the amount of 
+rain there would be today. We have to find the Mean of 3 values
+to find the prodiction(Y-axis)
+
+Y
+|
+|      Query
+|         
+|       |  *      K=3
+|   *   |       
+|       |  *           
+|_______|_______________  X
+0   5  10    15   20
+
