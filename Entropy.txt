@@ -1,0 +1,7 @@
+It is the measurement of Randomness.
+
+Entropy controls how a decision tree decided where to split the data.
+It is a measure of impurity in a bunch of examples.
+
+Entropy is opposite of purity.
+The value of Entropy lies between 0 and 1.
