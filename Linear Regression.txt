@@ -1,0 +1,28 @@
+In linear regression we draw a certain line, which can pass
+through all the points of the data. The closer the line to
+to the points. The higher would be the accuracy.
+
+The main equation of linear regression is:
+
+y = mx + c
+
+The line could have any order(power)
+
+Eg.  y = a^5+b^3+c
+
+# Higher order polynomials helps in making a curved line
+  which can pass through several points and can increase
+  the accurecy.
+
+Polynomial Regression:
+
+In this we multiply one matrix with another.
+-------------------------------------------------
+Linear Regression Error Calculation:
+
+Error = Actual - Predicted
+
+
+[1 2]      [3 5]
+[2 5]
+
