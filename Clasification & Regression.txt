@@ -1,0 +1,20 @@
+Classification and Regression are the parts of Suprevised Learining
+We take the imput and determing the output based on input.
+
+# Classification and Regression are about the Output data not 
+the input. If the output is Continuous then it is Regression and 
+if the output is Discrete then it is Classification.
+
+Clasification is the process of taking some type of 
+input and maping it into label. Like True or False.
+
+Clasification means is to Clasify.
+Like if credit history of certain person is given
+and then we have to determing whether bank should give 
+lone to that person.
+Credit histort is about how much lone you have, money you have,
+how much you earn etc.
+
+Regression means is to compare the several examples
+and find the correct answer.
+Like if severla images are given and we have to deteming the age.
