@@ -1,0 +1,7 @@
+They are the functions that takes a low dimensional feature
+space and map it to a very high dimensional space.
+
+It converts non linearly separable data to separable data.
+It separates the data using Support Vector Machines. Then takes
+the solution and go back to the original space i.e. Non Linear
+Separation.
