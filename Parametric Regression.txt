@@ -1,0 +1,13 @@
+It is a way of building a model by using parameters.
+We represent the model with the number of parameters.
+
+As the number of paramters increase, the more accuracy we can get
+
+For eg:   y = mx+c   (would be only a straingt line)
+
+and       y = nx^2+mx+c (Here we have 2 parameters, n and m)
+                        (It can make a curved line)
+   
+                    
+Model will get more complex, as the parameters increase and
+hence more accurate it will get.
