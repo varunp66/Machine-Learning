@@ -1,0 +1,15 @@
+In Supervised Learning, we feed our system called labeled example.
+Labeled example means we give our system some information that
+it used to understan the data that we are giving it.
+
+For example: We will give it the images of some person's face
+and give it the images of some other faces. And we will tell the
+system which image we have to select.
+
+Neural network, Regression, Classification are the different ways
+of approaching Supervised Learning. 
+
+Suprvised Classification:
+
+Supervised means we have several examples and we search the correct
+answer in those example.
