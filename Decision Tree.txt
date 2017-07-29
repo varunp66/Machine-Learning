@@ -1,0 +1,16 @@
+Decision Trees - Expressiveness
+
+A and B
+A or B
+A xor B
+
+We will use truth table in this case. If A and B, both 
+are true than we will move to next node i.e. from A to B.
+If A and B is false then we will not move to any node.
+
+The above condition will change as the gate change.
+
+# Decision tree allows you to have multiple equations 
+  to separate the data.
+
+# Decision tree can be used in sklearn(search on google).
