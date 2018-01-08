@@ -1,0 +1,19 @@
+np.random.seed(0)
+
+It is used to generate the random numbers.
+The output is determined by the 'seed' value we are using.
+
+If we have use random.seed = 0, then it will generate the same 
+random number output everytime we run the code.
+
+If we change the value of random seed then it will generate
+different output everytime we run the code.
+
+------------------------------------------------------------------
+Convergence Tolerance(Threshold)
+
+tol = 1e-8
+
+It actually tells the model when to stop learning. Like when we start
+to get a desaired output, then we can set a Threshold, means at that
+point the model will stop learning.
