@@ -1,0 +1,22 @@
+Regularization is the technique to prevent Overfitting.
+It is represented as 'lambda'.
+
+When our model is trained too much on Training data, then it is 
+unable to make good predictions on new data.
+Hence if we get thenew data then it won't be able to make
+proper predictions.
+
+It happens because the data we trained it on is too similar to the
+the new data, hence it don't able to make good predictions.
+
+There are two types of regularization L1 and L2.
+
+where 
+L1 is the sum of the weights.
+L2 is the sum of Square of the weights.
+
+
+Output = (Actual output - Predicted output) + Regualrization(L1 or L2)
+
+
+Adding regularization to our output avoid overfitting of Model
