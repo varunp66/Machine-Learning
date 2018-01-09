@@ -1,0 +1,19 @@
+The SVM is a classification algorithm which divides the data
+in the best possible way.
+
+The points close to the line are called Support Vectors and the line
+is called Hyperplane.
+
+It is also called a Constrained Optimization problem. Where Constrains
+are the points and the Optimization is the line and we are trying to 
+obtain the maximum distance possible between the line and the points.
+
+Pros:
+
+- It is good at dealing with high dimensional data.
+- It works well on small data sets.
+
+Cons:
+
+- It could be computationally intensive if we don't use the right
+  Kernal and Parameters.
