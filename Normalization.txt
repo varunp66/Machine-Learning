@@ -1,0 +1,9 @@
+Normalization refers to a process that makes something more normal or regular.
+
+Database normalization, or simply normalization, is the process of organizing 
+the columns (attributes) and tables (relations) of a relational database to reduce 
+data redundancy and improve data integrity.
+
+Normalization involves arranging attributes in relations based on dependencies 
+between attributes, ensuring that the dependencies are properly enforced by database 
+integrity constraints.
