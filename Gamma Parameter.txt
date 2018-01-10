@@ -1,0 +1,11 @@
+The Gamma Paramether is used to classify the data. 
+Higher the value of Gamma the more data our model will try to classify.
+
+It can classify the data in any form, linear, circle, curve etc.
+depending on the value of Gamma we are using.
+
+For eg. if we use gamma = 2^-5(gamma = 2**-5 in the form of python code)
+the it will make curve line to classify the data.
+
+If we set gamma = 2^1, then it will try to classify each and every
+data point separately.
