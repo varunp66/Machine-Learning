@@ -1,0 +1,8 @@
+The C Parameter is used to ignore the data. Like when data is too 
+much crowded and our model can't classify it easily, then we can
+use C Parameter to ignore that data. 
+
+Like if we set the value of C= -5, then our model will try to ignore
+that data and 
+If we set the value of C = 5,then our model will try to Ideantify
+that data.
