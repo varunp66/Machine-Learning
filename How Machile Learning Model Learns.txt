@@ -1,0 +1,20 @@
+The Python classes or Libraries have mainly two purposes:
+
+1: First they implement the algorithm for learning the model and
+   also makes predictions.
+2: These algorithms also stores all the informations that is learned from the data.
+
+
+Training the model on data is also called fitting the model to the data.
+
+We use .fit() method to train our model.
+
+We use .predict() method to predict the unlabeled data.
+
+
+knn.fit(iris['data'], iris['target']
+
+where, 'data' is the Features and 'target' is the Labels.
+
+The data could be in the from of IRIS data set or in the for of Pandas DataFrame.
+Hence we have to choose syntax accordingly.
