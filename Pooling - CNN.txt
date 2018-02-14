@@ -1,0 +1,19 @@
+-  In Pooling we choose a window/square of 2-3 cells and make it move all
+over the image and for each window we take the maximum value.
+
+This helps us in reducing the overall size of the actual image
+For eg. If the image is of 7x7 pixels, then after using pooling of 2 window
+the size of the image will reduce to 4x4 pixels. This output, that we obtain is 
+called Max Pooling.
+
+The pooling makes it easire when we work on the images of high size. Like 
+9000x9000 pixels. The pooling can reduce it to 500x500 pixels.
+
+
+-  The other thing Pooling does is that it doesn't care where in the window
+the maximum value occurs. It just place it in the cell to reduce the size.
+
+
+Reference:
+
+https://www.youtube.com/watch?v=FmpDIaiMIeA
