@@ -1,0 +1,54 @@
+The Linear Regression is in the form of 
+
+y=ax+b
+
+where:
+
+y is the target value
+x if the single feature
+a,b are the paramether of model
+
+We can choose a,b by defining the "Error Function" of any given line.
+Then, choose the line that minimizes the erroe function. This error
+function is also called a "Loss" or a "Cost Function".
+
+When we draw the line between the points. The the distance between the points
+and the line is called "Resudual". The two same Resuduals cancel out each other
+and the square of the sum of remaining Resuduals will be our "Loss Function.
+it is also called Ordinary Least Squares(OLS).
+
+When we 'fit' the model in SkLearn, then it performs OLS.
+
+-----------------------------------------------------------------------------------
+
+Polynimial Linear Regression
+
+When we have two features and one target value, then our line is in the form
+of :
+
+y = a1x1 + a2x2 + b
+
+To fit the Linear Regression Model here, we will need 3 variables a1,a2 and b.
+
+In SkLearn we use this by passing the 'fit' method to the two arrays. In which
+one contains Features and another contains the Target variables.
+
+For eg:
+
+from sklear.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X,y, test_size = 0.3,random_state=42)
+
+reg_all = linear_model.LinearRegression()
+#We are using regualrization here
+
+reg_all.fit(X_train, y_train)
+
+y_pred = reg_all.predict(X_test)
+
+y_pred = reg_all.predict(X_test)
+
+reg_all.score(X_test, y_test)
+
+
+
