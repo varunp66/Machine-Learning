@@ -1,0 +1,11 @@
+This is the funcion that we calculate by assigning panalty to the points
+that are aligned incorrectly.
+
+Like if ther are blue and red dots and some of the red dots are in the  
+regoin of blue dots and vice versa. Then the points that are miss-classified
+would be give high penalty and the points that are correctly calssified
+would be given low penalty.
+
+Hence by adding all the penalites we can calculate our loss function.
+
+Our main aim is to reduce the value of Loss Function. 
