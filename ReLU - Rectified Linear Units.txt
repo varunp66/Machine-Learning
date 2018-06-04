@@ -1,0 +1,11 @@
+What ReLU function does is Normalization. It changes all Negative values to Zeor(0).
+Whenever it see any negative value during the Pooling it changes it to 0.
+
+The ReLU is basically another layer in Neural Network. It is a kind of an 
+activation function.
+
+
+
+Reference:
+
+https://www.youtube.com/watch?v=FmpDIaiMIeA
