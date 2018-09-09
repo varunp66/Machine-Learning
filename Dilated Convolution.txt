@@ -1,0 +1,2 @@
+In Dilated Convolution our Keral has the gap between the pixels. The kernal
+is the window what strides over the image and gives us the feautre map.
